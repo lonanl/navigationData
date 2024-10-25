@@ -8,9 +8,18 @@ const Keys = {
 	locations: {
 		address: 'Адрес',
 		metro: 'Метро',
+		crossings: 'Переходы'
 	},
 	corpuses: {
 		location: 'Локация',
+		stairs: 'Группы лестниц'
+	},
+	plans: {
+		corpus: 'Корпус',
+		floor: 'Этаж',
+		wayToSvg: 'Путь к SVG',
+		entrances: 'Входы',
+		graph: 'Граф',
 	},
 };
 

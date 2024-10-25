@@ -1,5 +1,5 @@
-import {JWT} from 'google-auth-library'
-import googleServiceAccount from '../token.json'
+import {JWT} from 'google-auth-library';
+import googleServiceAccount from '../token.json';
 
 export const auth: JWT = new JWT({
 	email: googleServiceAccount.client_email,
