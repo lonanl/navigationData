@@ -1,8 +1,7 @@
 import {JWT} from 'google-auth-library';
-import googleServiceAccount from '../token.json';
 
 export const auth: JWT = new JWT({
-	email: googleServiceAccount.client_email,
-	key: googleServiceAccount.private_key,
+	email: process.env.CLIENT_EMAIL,
+	key: process.env.PRIVATE_KEY,
 	scopes: ['https://www.googleapis.com/auth/spreadsheets.readonly']
 })
