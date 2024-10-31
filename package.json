@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "app.ts",
   "scripts": {
-    "test": "node --import=tsx ."
+    "test": "node --env-file=.env --import=tsx .",
+    "export": "node --import=tsx ."
   },
   "author": "",
   "license": "ISC",
