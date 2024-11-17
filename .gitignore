@@ -3,3 +3,4 @@
 /.idea/
 /warnings.log
 /token.json
+/.env
